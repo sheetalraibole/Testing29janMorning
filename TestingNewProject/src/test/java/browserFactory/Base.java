@@ -2,6 +2,7 @@ package browserFactory;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Base {
@@ -21,5 +22,12 @@ public class Base {
 	driver = new FirefoxDriver();
 	return driver;
 }
+	public static WebDriver openEdgeBrowser() {
+		System.setProperty("webdriver.edge.driver",
+				"C:\\Users\\SHEETAL\\chromedriver_win32\\chromedriver.exe");
+		WebDriver driver = new EdgeDriver();
+		driver = new FirefoxDriver();
+		return driver;
 	
-}
+	
+}}
