@@ -5,7 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class Base {
+public class Base implements ITestListener {
 	public static WebDriver openChromeBrowser() {
 		int testCaseID;
 

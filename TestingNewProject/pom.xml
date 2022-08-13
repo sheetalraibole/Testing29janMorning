@@ -28,7 +28,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
  <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
-            <version>7.4.0</version>
+            <version>7.0.0</version>
             <scope>compile</scope>
         </dependency>
   <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
@@ -37,6 +37,22 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
     <artifactId>commons-io</artifactId>
     <version>2.9.0</version>
 </dependency>
+
+<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>3.1.5</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+<dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>5.2.0</version>
+</dependency>
+
+
 <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml-schemas -->
 <dependency>
     <groupId>org.apache.poi</groupId>
